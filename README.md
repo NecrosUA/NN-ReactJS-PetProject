@@ -20,7 +20,4 @@
 - 📦 **Mock Service Worker (MSW)** - For simulating a database and API responses on the frontend.
 - 🎨 **SASS** - For overriding bootstrap styles
 
-## 📜 License
-© 2025 Rostislav Kochančuk  
-📧 Email: [rostyslav.kokhanchuk@nn.cz](mailto:rostyslav.kokhanchuk@nn.cz)
 
