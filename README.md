@@ -1,6 +1,7 @@
 # 🚗 Car Insurance - NN Pet Project
 
-**This project provides a user interface design for a car insurance application. The project focuses on creating a modern and user-friendly application for managing car insurance.**
+**This project provides a user interface design for a car insurance application. The project focuses on creating a modern and user-friendly application design for managing car insurance.**
+**This project was created solely for educational purposes to explore and practice working with the ReactJS library and Figma.**
 
 ## 📋 Project Features
 - 🚘 **Display and management of insured vehicle information**
