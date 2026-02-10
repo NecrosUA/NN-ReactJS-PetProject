@@ -1,5 +1,5 @@
-import { Stack, styled } from "@mui/system";
-import { Nav as Navi, Navbar, type NavbarProps, type NavLinkProps, Button, Dropdown } from "react-bootstrap";
+import { styled } from "@mui/system";
+import { Nav as Navi, Navbar, type NavbarProps, type NavLinkProps } from "react-bootstrap";
 import Image from 'react-bootstrap/Image';
 
 

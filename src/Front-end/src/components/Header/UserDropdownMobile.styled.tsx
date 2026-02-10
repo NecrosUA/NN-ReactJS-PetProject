@@ -20,7 +20,7 @@ export const MobileDropdownButton = styled(Button)(({ theme }) => ({
 }));
 
 export const MobileDropdownmenu = styled(Dropdown)(({ theme }) => ({
-    '& .dropdown-toggle::after': { // Hide the default dropdown arrow
+    '& .dropdown-toggle:after': { // Hide the default dropdown arrow
         display: 'none',
     },
     '.dropdown-menu': {

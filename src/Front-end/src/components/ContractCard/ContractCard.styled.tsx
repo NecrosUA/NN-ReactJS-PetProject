@@ -1,4 +1,4 @@
-import { alignItems, Box, flexDirection, margin, Stack, styled } from "@mui/system";
+import { Box, Stack, styled } from "@mui/system";
 
 export const TextHeaderWrapper = styled(Stack)(({ theme }) => ({
   marginTop: theme.spacing(3),
