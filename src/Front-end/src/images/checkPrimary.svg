@@ -1,0 +1,21 @@
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g filter="url(#filter0_i_13_128)">
+<rect width="16" height="16" fill="url(#pattern0_13_128)"/>
+</g>
+<defs>
+<filter id="filter0_i_13_128" x="0" y="0" width="16" height="20" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.466667 0 0 0 0 0.286275 0 0 0 0 0.972549 0 0 0 1 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_13_128"/>
+</filter>
+<pattern id="pattern0_13_128" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_13_128" transform="scale(0.0625)"/>
+</pattern>
+<image id="image0_13_128" width="16" height="16" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAHFJREFUOI1jYKAQMGITFNf2/Y9N/OXVzRjqUQSQNaIrxicHV4DLZnyuZCLkRHya4QaQYzOKZcgG4DMM2ZtYvYDPEKw2YzMApgCbq7CFEVYXIBuCTzOKAejORtaAL03gF8QBMKKRFEPQ1VCclCnOTBQDAB2oUdd9F79rAAAAAElFTkSuQmCC"/>
+</defs>
+</svg>
