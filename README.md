@@ -3,7 +3,6 @@
 **This project provides a user interface design for a car insurance application. The project focuses on creating a modern and user-friendly application for managing car insurance.**
 
 ## 📋 Project Features
-- 🔑 **User login**
 - 🚘 **Display and management of insured vehicle information**
 - 💳 **Tracking payments and notifications for upcoming due dates**
 - 🖥️📱 **Desktop and mobile design**
@@ -12,7 +11,7 @@
 - ⚛️ **React.js**
 - 🅱️ **Bootstrap+React bootstrap**
 - 🔀 **React Router** - For routing pages
-- 🎨 **Figma**
+- 🎨 **Figma** - [Car insurance page design](https://www.figma.com/design/4LCUwJrnBLZsK3Z4OHhm0t/Car-insurance?node-id=0-1&p=f&t=pN5UukCI4NcQK0ad-0)
 - 📦 **Mock Service Worker (MSW)** - For simulating a database and API responses on the frontend.
 - 🎨 **SASS** - For overriding bootstrap styles
 
