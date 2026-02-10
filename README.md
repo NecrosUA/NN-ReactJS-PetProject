@@ -1,8 +1,4 @@
 # 🚗 Car Insurance - NN Pet Project
-  ______
- /|_||_\`.__
-(   _    _ _\
-=`-(_)--(_)-'
 
 **This project provides a user interface design for a car insurance application. The project focuses on creating a modern and user-friendly application for managing car insurance.**
 
@@ -19,5 +15,6 @@
 - 🎨 **Figma**
 - 📦 **Mock Service Worker (MSW)** - For simulating a database and API responses on the frontend.
 - 🎨 **SASS** - For overriding bootstrap styles
+
 
 
