@@ -5,3 +5,12 @@
 
 // Import all of Bootstrap's CSS
 @import "bootstrap/scss/bootstrap";
+
+// Custom global styles for fixing scrollbar behavior and ensuring consistent layout for all pages, even when content is short.
+html {
+	scrollbar-gutter: stable;
+}
+
+body {
+	overflow-y: scroll;
+}
