@@ -1,11 +1,4 @@
-import type { ContractCardProps } from "../../components/ContractCard/ContractCard";
-import type { ContractDetailsProps } from "../../components/ContractDetailsCard/ContractDetailsCard";
-
-export type ContractApiResponse = {
-    contractOwner: string;
-    contractCard: ContractCardProps;
-    contractDetails: ContractDetailsProps;
-};
+import type { ContractApiResponse } from "./contract.types";
 
 export const contractApiMock: ContractApiResponse = {
     contractOwner: 'Rostyslav Kokhanchuk',
