@@ -50,7 +50,7 @@ export const UserDropDownWrapper = styled(NavDropdown)(({ theme }) => ({
     },
 }));
 
-export const NavDropdownItem = styled(NavDropdown.Item)<NavbarProps>(({ theme }) => ({
+export const NavDropdownItem = styled(NavDropdown.Item)<NavbarProps>(() => ({
     fontFamily: 'Inter, sans-serif',
     fontSize: 16,
     color: 'var(--bs-secondary)',
@@ -61,7 +61,7 @@ export const NavDropdownItem = styled(NavDropdown.Item)<NavbarProps>(({ theme })
     },
 }));
 
-export const VerticalDivider = styled(Stack)(({ theme }) => ({
+export const VerticalDivider = styled(Stack)(() => ({
     width: "1px",
     height: "50px",
     backgroundColor: "var(--bs-gray-300)",

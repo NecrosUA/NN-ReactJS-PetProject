@@ -14,17 +14,17 @@ export const Wrapper = styled(Navbar)<NavbarProps>(({ theme }) => ({
     },
 }));
 
-export const Brand = styled(Navbar.Brand)(({ theme }) => ({
+export const Brand = styled(Navbar.Brand)(() => ({
     fontSize: "20px",
     fontFamily: "Inter, sans-serif",
     fontWeight: "Bold",
 }));
 
-export const Nav = styled(Navi)(({ theme }) => ({
+export const Nav = styled(Navi)(() => ({
     fontFamily: "Inter, sans-serif",
 }));
 
-export const NavLink = styled(Navi.Link)<NavLinkProps>(({ theme }) => ({
+export const NavLink = styled(Navi.Link)<NavLinkProps>(() => ({
     color: "var(--bs-secondary)",
     textDecoration: "none",
     transition: "color .15s, text-decoration-color .15s",
@@ -47,7 +47,7 @@ export const Logo = styled(Image)(({ theme }) => ({
     },
 }));
 
-export const MobileMenuWrapper = styled(Navbar)<NavbarProps>(({ theme }) => ({
+export const MobileMenuWrapper = styled(Navbar)<NavbarProps>(() => ({
     display: "flex",
 }));
 

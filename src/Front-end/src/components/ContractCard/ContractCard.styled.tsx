@@ -15,7 +15,7 @@ export const PageContainer = styled(Stack)(({ theme }) => ({
   padding: theme.spacing(0, 4),
 }));
 
-export const Card = styled(Stack)(({ theme }) => ({
+export const Card = styled(Stack)(() => ({
   background: "var(--bs-white)",
   border: '1px solid var(--bs-primary)',
   borderRadius: 16,
@@ -58,7 +58,7 @@ export const CarInfoWrapper = styled(Stack)(({ theme }) => ({
     },
   },
 }));
-export const CarDetailsTextWrapper = styled(Stack)(({ theme }) => ({
+export const CarDetailsTextWrapper = styled(Stack)(() => ({
   flexDirection: 'column',
   '& .text-header': {
     fontSize: 20,
