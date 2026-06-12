@@ -1,29 +1,12 @@
 import {
-  Outlet,
   createRootRoute,
   createRoute,
   createRouter,
 } from "@tanstack/react-router";
-import { useContractQuery } from "./api/contract/contract.query";
-import { Header } from "./components/Header/Header";
-import { ContractPage } from "./Pages/ContractPage";
-import { ClaimsPage } from "./Pages/ClaimsPage";
-import { ContactPage } from "./Pages/ContactPage";
-
-function RootLayout() {
-  const { data, isLoading, isError, error } = useContractQuery();
-
-  if (isLoading) return <div>Loading...</div>;
-  if (isError) return <div>Error: {error.message}</div>;
-  if (!data) return <div>No data</div>;
-
-  return (
-    <>
-      <Header user={data.contractOwner} />
-      <Outlet />
-    </>
-  );
-}
+import { ContractPage } from "../pages/ContractPage";
+import { ClaimsPage } from "../pages/ClaimsPage";
+import { ContactPage } from "../pages/ContactPage";
+import { RootLayout } from "../pages/RootLayout";
 
 const rootRoute = createRootRoute({
   component: RootLayout,
