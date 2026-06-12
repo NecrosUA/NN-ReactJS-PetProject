@@ -1,13 +1,9 @@
 import { ContractCard } from "../components/ContractCard/ContractCard";
 import { ContractDetailsCard } from "../components/ContractDetailsCard/ContractDetailsCard";
-import { useContractQuery } from "../api/contract/contract.query";
+import { useContractContext } from "../hooks/useContractContext";
 
 export const ContractPage = () => {
-	const { data, isLoading, isError, error } = useContractQuery();
-
-	if (isLoading) return <div>Loading...</div>;
-	if (isError) return <div>Error: {error.message}</div>;
-	if (!data) return <div>No data</div>;
+	const { data } = useContractContext();
 
 	return (
 		<>
