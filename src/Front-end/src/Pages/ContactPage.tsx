@@ -1,5 +1,5 @@
-import { StaticPage } from "../components/StaticPage/StaticPage";
+import { ContactFormCard } from "../components/ContactFormCard/ContactFormCard";
 
 export const ContactPage = () => {
-  return <StaticPage title="Kontakt" />;
-}
+  return <ContactFormCard />;
+};
