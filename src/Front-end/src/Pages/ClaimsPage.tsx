@@ -1,5 +1,5 @@
-import { StaticPage } from "../components/StaticPage/StaticPage";
+import { ClaimsTable } from "../components/ClaimsTable/ClaimsTable";
 
 export const ClaimsPage = () => {
-  return <StaticPage title="Pojistné události" />;
+  return <ClaimsTable />;
 }

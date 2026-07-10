@@ -1,10 +1,14 @@
-import createTheme from "@mui/system/createTheme";
+import { createTheme } from "@mui/material/styles";
 
 //TODO implement custom theme usage in the project
 export const customTheme = createTheme({
   palette: {
-    primary:  "var(--color-primary)" ,   
-    secondary: "var(--color-secondary)",   
+    primary: {
+      main: "#7749F8",
+    },
+    secondary: {
+      main: "#6c757d",
+    },
   },
   typography: {
     fontFamily: '"Inter", sans-serif',
