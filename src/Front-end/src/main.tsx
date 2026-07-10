@@ -2,8 +2,11 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { RouterProvider } from "@tanstack/react-router";
+import { ModalsProvider } from "@mantine/modals";
+import { ThemeProvider } from "@mui/material/styles";
 import "./App.css";
 import { router } from "./router/router";
+import { customTheme } from "./theme";
 
 const queryClient = new QueryClient();
 
@@ -18,7 +21,11 @@ enableMocking().then(() => {
   createRoot(document.getElementById("root")!).render(
     <StrictMode>
       <QueryClientProvider client={queryClient}>
-        <RouterProvider router={router} />
+        <ThemeProvider theme={customTheme}>
+          <ModalsProvider>
+            <RouterProvider router={router} />
+          </ModalsProvider>
+        </ThemeProvider>
       </QueryClientProvider>
     </StrictMode>
   );
