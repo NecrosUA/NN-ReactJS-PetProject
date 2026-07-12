@@ -7,10 +7,7 @@ node_modules/
 # Vite
 /.vite/
 
-# Dependency lockfiles and service worker
-package-lock.json
-yarn.lock
-src/Front-end/public/mockServiceWorker.js
+# Keep one lockfile in git (npm or yarn) and track MSW worker
 
 # Logs
 npm-debug.log*
